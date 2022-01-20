@@ -1,0 +1,75 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A web page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="over">
+    <header>
+      <div class="head">
+        <h1 class="font">Easy Use</h1>
+      </div>
+      <div class="head1">
+        <a class="deco" href="#">Home</a>
+        <a class="deco" href="#">About</a>
+        <a class="deco" href="#">Service</a>
+      </div>
+    </header>
+    <main class="float">
+      <section>
+        <div class="contain">
+          <img class="right" src="./image1.jpg" alt="image" width="300px" />
+          <p class="right height">
+            Vestibulum id nisi ac urna eleifend facilisis. Donec enim velit,
+            elementum vitae justo eget, sagittis finibus erat. Vivamus
+            hendrerit, ligula ut lobortis ornare, nisi odio viverra ipsum, quis
+            porta tortor dolor a quam. Praesent ac nunc at urna tincidunt
+            elementum sed sit amet eros. Vestibulum at libero vitae tellus
+            congue molestie
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="contain1">
+          <img class="left" src="./image2.jpg" alt="image" width="350px" />
+          <p class="height">
+            Vestibulum id nisi ac urna eleifend facilisis. Donec enim velit,
+            elementum vitae justo eget, sagittis finibus erat. Vivamus
+            hendrerit, ligula ut lobortis ornare, nisi odio viverra ipsum, quis
+            porta tortor dolor a quam. Praesent ac nunc at urna tincidunt
+            elementum sed sit amet eros. Vestibulum at libero vitae tellus
+            congue molestie
+          </p>
+        </div>
+      </section>
+      <section class="float width note">
+        <div>
+          <img class="left" src="image3.jpg" alt="image" width="300" />
+          <p class="height">
+            Vestibulum id nisi ac urna eleifend facilisis. Donec enim velit,
+            elementum vitae justo eget, sagittis finibus erat. Vivamus
+            hendrerit, ligula ut lobortis ornare, nisi odio viverra ipsum, quis
+            porta tortor dolor a quam. Praesent ac nunc at urna tincidunt
+            elementum sed sit amet eros. Vestibulum at libero vitae tellus
+            congue molestie
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="float gap">
+      <div class="box">
+        <a class="center" href="#">Twitter</a>
+        <a class="center" href="#">Facebook</a>
+        <a class="center" href="#">Email</a>
+      </div>
+    </footer>
+  </body>
+</html>
