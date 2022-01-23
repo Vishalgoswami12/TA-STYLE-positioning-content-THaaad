@@ -1,0 +1,258 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.head {
+  height: 300px;
+  /* width: 90%; */
+  background-color: #5385c1;
+  margin: 20px auto;
+  padding: 30px;
+  position: relative;
+  color: white;
+}
+.head1 {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+.head1 a {
+  text-decoration: none;
+  color: #fff;
+}
+.head2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 100px;
+}
+.head3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.manage {
+  width: 28%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.shift {
+  background-color: #fff;
+  width: 100%;
+}
+.size {
+  font-size: 22px;
+  color: #5385c1;
+}
+.size2 {
+  margin-top: 20px;
+}
+.size3 {
+  background-color: #5385c1;
+  color: white;
+  margin-top: 30px;
+  /* width: 20%; */
+  padding: 8px;
+  outline: none;
+  border: none;
+}
+.inline {
+  display: inline-block;
+}
+.right {
+  margin-right: 10px;
+}
+.middle {
+  /* width: 90%; */
+  background-color: #5385c1;
+  margin: 20px auto;
+  padding: 40px;
+}
+.middle1 {
+  font-size: 27px;
+  color: white;
+  text-align: center;
+  padding: 0px;
+}
+.middle2 {
+  color: white;
+  text-align: center;
+}
+.small {
+  padding: 40px;
+  text-align: center;
+}
+.small1 {
+  border: 1px solid white;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 10px;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.last {
+  font-size: 28px;
+  color: lightslategray;
+  text-align: center;
+  padding: 20px;
+}
+.last1 {
+  font-size: 12px;
+  text-align: center;
+}
+.last2 {
+  width: 46%;
+  padding: 20px;
+  vertical-align: top;
+}
+.inline {
+  display: inline-block;
+}
+/* .shift {
+  padding: 40px;
+  text-align: center;
+} */
+
+footer {
+  width: 95%;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+.icons {
+  position: absolute;
+  right: 20px;
+  top: 35px;
+}
+.icons a {
+  margin-right: 15px;
+  color: #333;
+}
