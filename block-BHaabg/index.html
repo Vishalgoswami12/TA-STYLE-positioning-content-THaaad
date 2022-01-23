@@ -1,0 +1,70 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Workspace</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="fixed">
+      <h1 class="top head fix">Alfa secure</h1>
+      <nav class="head1 fix">
+        <a class="deco" href="#">Home</a>
+        <a class="deco" href="#">About</a>
+        <a class="deco" href="#">Service</a>
+      </nav>
+    </header>
+    <main class="clear">
+      <section>
+        <div class="inline">
+          <h2 class="top1" id="top">Thinking Face</h2>
+          <p>
+            Morbi vitae dignissim lorem. Morbi ornare quis ligula non fringilla.
+            Nullam dictum, sem eget eleifend laoreet, tellus. odio pellentesque
+            risus, id malesuada nibh leo eget sem. Quisque efficitur arcu a
+            turpis laoreet volutpat. Etiam et dolor purus. Praesent convallis,
+            ligula quis fermentum euismod, nisl urna ultricies felis, sed
+            ultricies leo libero vel tortor. Nunc et finibus mauris. Phasellus
+            porttitor, magna in consectetur suscipit,
+          </p>
+        </div>
+        <div class="inline">
+          <img src="./image1.jpg" alt="image" width="100%" />
+        </div>
+      </section>
+      <section>
+        <h1 class="top1">Gallery</h1>
+        <div class="row1">
+          <img src="./image2.jpg" width="33%" />
+          <img src="./image3.jpg" width="33%" />
+          <img src="./image4.jpeg" width="33%" />
+        </div>
+        <div class="row2">
+          <img src="./image5.jpeg" width="33%" />
+          <img src="./image6.jpeg" width="33%" />
+          <img src="./image7.jpeg" width="33%" height="200" />
+        </div>
+      </section>
+    </main>
+    <footer class="button">
+      <button>
+        <a href="#top">Top</a>
+      </button>
+    </footer>
+  </body>
+</html>
